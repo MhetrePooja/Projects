@@ -1,0 +1,28 @@
+.form{
+    
+    background-color: rgba(43, 8, 37, 0.096);
+    text-align: center;
+    border: 2px solid red;
+    padding: 20px;
+    margin :90px;
+    display: inline-block;   
+}
+.input-container{
+background-color: rgb(146, 218, 140);
+padding : 10px;
+margin :10px;
+text-align: center;
+display: inline-block;
+
+} 
+.btn{
+    width: 100px;
+  border:darkblue;
+  color: rgb(88, 33, 33);
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: center;
+  display: inline-block;
+  font-size: 16px;
+  background-color: rgb(114, 147, 218);
+}
