@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  background-color: rgb(253, 253, 253);
+  margin: 10px auto;
+  width: 70%;
+}
+
+.main {
+  background-color: #6148eb;
+  text-align: center;
+
+  margin: auto;
+  margin-top: 1vh;
+  color:#ffffff;
+  padding: 50px 20px;
+
+}
+.cart {
+  background-color: #6b4b64;
+  text-align: center;
+  font-weight: 700;
+  font-size: medium;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  background-color: #c06ba4;
+  color: white;
+  font-weight: 500;
+  font-size: small;
+  margin: 5px auto;
+  
+}
+.totalPrice{
+  background-color: #095f34;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.productList {
+  background-color: #e43030;
+  padding: 10px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.device {
+  font-size: xx-large;
+  align-self: center;
+
+}
+.eachItem {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  background-color: #6feea0;
+  color: rgb(238, 65, 65);
+  font-weight: 500;
+  font-size: small;
+  margin: 5px auto;
+}
+.eachCartProd {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
